@@ -70,6 +70,7 @@ Limpieza:
 Mostrar el arbol:
 
 <img width="829" height="579" alt="image" src="https://github.com/user-attachments/assets/18750292-cd7e-4048-a514-69ccb44b770a" />
+
 - Se dibuja el árbol con nerworkX
 - Se llama la gramática, pide la cadena y dependiendo de si acepta o no, se imprime el árbol.
 
