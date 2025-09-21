@@ -51,20 +51,20 @@ class Parser:
     def parse(self, simbolo, pos):
 
         if simbolo == "vacio":
-            nodo = self.nuevo_nodo("vacio")   # opcional: mostrar ε en el árbol
+            nodo = self.nuevo_nodo("vacio") 
             return True, nodo, pos
 
         if simbolo not in self.gramatica:  # terminal
             if pos < len(self.tokens) and self.tokens[pos][0] == simbolo:
                 tipo, lex = self.tokens[pos]
 
-                # nodo del símbolo de la gramática (ej. "num", "opsuma")
+                # nodo del símbolo de la gramatica ej "num", "opsuma"
                 nodo_tipo = self.nuevo_nodo(tipo)
 
-                # nodo con el valor real (ej. "2", "+", "*")
+                # nodo con el valor real ej "2", "+", "*"
                 nodo_lex = self.nuevo_nodo(lex)
 
-                # conectar tipo → valor
+                # conectar tipo con valor para mostrarse en el arbol
                 self.grafo.add_edge(nodo_tipo, nodo_lex)
 
                 return True, nodo_tipo, pos + 1
