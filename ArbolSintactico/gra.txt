@@ -1,0 +1,7 @@
+E -> T Ep
+Ep -> opsuma T Ep | vacio
+T -> F Tp
+Tp -> opmul F Tp | vacio
+F -> num
+F -> pari E pard
+
