@@ -80,6 +80,8 @@ Para casos en donde networkX no se pueda instalar, crear y activar un entorno vi
 
 <img width="971" height="196" alt="image" src="https://github.com/user-attachments/assets/c9727986-9414-49bd-b2b1-ddccb719eff2" />
 
+<br>
+
 Ejemplos:
 
 <img width="1639" height="579" alt="image" src="https://github.com/user-attachments/assets/182a0b24-1a91-4ef6-8c5f-55e2da360485" />
